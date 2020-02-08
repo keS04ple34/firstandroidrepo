@@ -24,6 +24,8 @@ public class CameraActivity extends AppCompatActivity
         String string = ((Button)view).getText().toString();
         Log.d("hehe","the string: " + string);
 
+        String secondBranch = "this is the second branch stringy";
+
         if(string.matches("[hH]ello"))finish();
         else
         MainActivity.Called(string);
