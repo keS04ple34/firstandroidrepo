@@ -25,6 +25,7 @@ public class CameraActivity extends AppCompatActivity
         Log.d("hehe","the string: " + string);
 
         String secondBranch = "this is the second branch stringy";
+        String thirdBranch = "this is the third branch stringy";
 
         if(string.matches("[hH]ello"))finish();
         else
